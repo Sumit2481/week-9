@@ -1,0 +1,45 @@
+body {
+    background-color: #00BFFF;
+    font-family: Verdana, sans-serif;
+    color: #330000;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #ccaa66;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    background-color: #EBD882;
+    width: 200px;
+    padding: 15px;
+}
+
+section {
+    background-color: #f1e8b0;
+    flex: 1;
+    padding: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+footer p {
+    margin:0;
+}
